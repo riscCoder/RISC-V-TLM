@@ -1,5 +1,7 @@
-
+#--------------------------
 # MAKE file for SystemC
+# Dave Williams/DNE
+#-------------------------
 
 include ./makefile.config
 
