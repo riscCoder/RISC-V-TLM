@@ -132,6 +132,9 @@ void process_arguments(int argc, char* argv[]) {
 int sc_main(int argc, char* argv[])
 {
 
+     cout << "-----------RiscV_TLM-----------------" << endl;
+     
+     
   /* Capture Ctrl+C and finish the simulation */
   signal(SIGINT, intHandler);
 
