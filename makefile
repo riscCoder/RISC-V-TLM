@@ -20,7 +20,8 @@ $(TARGET): $(SOURCES) $(INCLUDES)
 	-Wl,$(SYSTEMC_LIB_DIR) -lsystemc -o $@
 
 run:	$(TARGET) 
-	./$(TARGET) 3
+	./$(TARGET) tests/asm/EternalLoop.hex
+
 	
 clean:
 	rm -f ./$(TARGET)
