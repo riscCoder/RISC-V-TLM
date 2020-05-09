@@ -1,6 +1,9 @@
 #--------------------------
 # MAKE file for SystemC
-# Dave Williams/DNE
+#
+#   Dave Williams/DNE
+#   dave.williams.github@gmail.com
+#
 #-------------------------
 
 include ./makefile.config
@@ -12,7 +15,7 @@ SOURCES 	:= $(wildcard $(SRC)/*.cpp)
 INCLUDES 	:= $(wildcard $(INC)/*.h)
 
 TARGET		:= RiscV_Simulator
-
+TEST        := EternalLoop.hex          #modify for other tests in /tests/asm/
 
 .PHONY: run clean
 
@@ -22,7 +25,7 @@ $(TARGET): $(SOURCES) $(INCLUDES)
 	-Wl,$(SYSTEMC_LIB_DIR) -lsystemc -o $@
 
 run:	$(TARGET) 
-	./$(TARGET) tests/asm/EternalLoop.hex
+	./$(TARGET) ./tests/asm/$(TEST)       
 
 	
 clean:

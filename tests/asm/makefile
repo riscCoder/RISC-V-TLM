@@ -1,10 +1,15 @@
 #-------------------------------------------------------------------------------- 					
-#	makefile 					
+#	very basic makefile for					
 #											
 #	- assemble								
 #	- link 
 #	- create output hex file
-#									
+#   
+#   assuming all required files are located in same folder as this makefile
+#    
+#       Dave Williams/DNE
+#       dave.williams.github@gmail.com 
+#   									
 #-------------------------------------------------------------------------------
 
 .PHONY:  all clean
