@@ -1,7 +1,7 @@
 #--------------------------
 # MAKE file for SystemC
 #
-#   Dave Williams/DNE
+#   author: riscCoder
 #   dave.williams.github@gmail.com
 #
 #-------------------------
@@ -15,7 +15,8 @@ SOURCES 	:= $(wildcard $(SRC)/*.cpp)
 INCLUDES 	:= $(wildcard $(INC)/*.h)
 
 TARGET		:= RiscV_Simulator
-TEST        := EternalLoop.hex          #modify for other tests in /tests/asm/
+# TEST        := EternalLoop.hex          #modify for other tests in /tests/asm/
+TEST        := BasicLoop.hex          #modify for other tests in /tests/asm/
 
 .PHONY: run clean
 

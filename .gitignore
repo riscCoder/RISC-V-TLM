@@ -47,7 +47,6 @@ env.sh
 gh-md-toc
 
 
-oldmk
 RiscV_Simulator
 .gitignore
 

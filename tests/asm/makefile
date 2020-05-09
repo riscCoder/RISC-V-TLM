@@ -7,7 +7,7 @@
 #   
 #   assuming all required files are located in same folder as this makefile
 #    
-#       Dave Williams/DNE
+#       author: riscCoder
 #       dave.williams.github@gmail.com 
 #   									
 #-------------------------------------------------------------------------------
