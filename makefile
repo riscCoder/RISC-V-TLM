@@ -9,7 +9,7 @@ INC		:= ./inc
 SOURCES 	:= $(wildcard $(SRC)/*.cpp)
 INCLUDES 	:= $(wildcard $(INC)/*.h)
 
-TARGET		:= riscV_tlm
+TARGET		:= RiscV_Simulator
 
 
 .PHONY: run clean
